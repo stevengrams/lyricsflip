@@ -9,12 +9,12 @@
     "backend"
   ],
   "scripts": {
-    "dev:frontend": "npm --prefix frontend run dev",
-    "dev:backend": "npm --prefix backend run start:dev",
-    "build:frontend": "npm --prefix frontend run build",
-    "build:backend": "npm --prefix backend run build",
-    "build": "npm run build:frontend && npm run build:backend",
-    "start:backend": "npm --prefix backend run start:prod",
+    "dev:frontend": "node init && npm --prefix frontend run dev",
+    "dev:backend": "node init && npm --prefix backend run start:dev",
+    "build:frontend": "node init && npm --prefix frontend run build",
+    "build:backend": "node init && npm --prefix backend run build",
+    "build": "node init && npm run build:frontend && npm run build:backend",
+    "start:backend": "node init && npm --prefix backend run start:prod",
     "lint:frontend": "npm --prefix frontend run lint",
     "lint:backend": "npm --prefix backend run lint",
     "lint": "npm run lint:frontend && npm run lint:backend",
