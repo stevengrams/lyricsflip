@@ -1,0 +1,21 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "feat/issue-641-lf-155-emit-events-for-every-configuration",
+    "fix/issue-639-lf-153-many-persistent-entries-are-never-ttl",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "feat/issue-641-lf-155-emit-events-for-every-configuration": "main",
+    "fix/issue-639-lf-153-many-persistent-entries-are-never-ttl": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "feat/issue-641-lf-155-emit-events-for-every-configuration",
+    "fix/issue-639-lf-153-many-persistent-entries-are-never-ttl",
+    "origin"
+  ]
+}
